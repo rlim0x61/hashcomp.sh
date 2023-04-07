@@ -9,6 +9,12 @@ Script that analyzes and compares two directories to detect file changes.
 
 I needed a tool that was able to analyze and compare the contents from two directories in order to evaluate if the content from a due second directory is equal to the content from the first one. Then, I wrote this script. It is a kind of file integrity check. 
 
+# hashcomp.sh checksum
+
+MD5SUM: 0f93df30ca134974101bd42259bb5cc7  hashcomp.sh
+SHA1SUM: d9e60b0bfc202e74a9ca0e96f06583722986fcba  hashcomp.sh
+SHA256SUM: bf465a90575cd8c742a20a0082c2fd6e7ed4f40525ff57c60f55dfc9ba4f94b8  hashcomp.sh
+
 # Use Premises
 
 1 - You need to evaluate the contents of a copy / clone / shadow directory. Eg. /home/user/dir2, created from, Eg. /home/user/di1
@@ -36,6 +42,8 @@ $ chown -R user:user /home/user/dir1 && chown -R user:user /home/user/dir2
 $./hashcomp.sh [directory you trust] [directory you don't trust and want to compare] [md5sum|sha1sum|sha256sum|sha512sum]
 
 [*] Choose only one algorithm at time. Always in the order as shown above.
+
+[*] A folder called results will be created after finishing script execution.
 
 # Test Cases
 
