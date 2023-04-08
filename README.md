@@ -11,9 +11,9 @@ I needed a tool that was able to analyze and compare the contents from two direc
 
 # hashcomp.sh checksum
 
-MD5SUM: 0f93df30ca134974101bd42259bb5cc7  hashcomp.sh
-SHA1SUM: d9e60b0bfc202e74a9ca0e96f06583722986fcba  hashcomp.sh
-SHA256SUM: bf465a90575cd8c742a20a0082c2fd6e7ed4f40525ff57c60f55dfc9ba4f94b8  hashcomp.sh
+MD5SUM: 9b578bee68c9e0f99ce51cad655c8572 hashcomp.sh //
+SHA1SUM: b7e06b1415b3e9c901ae0c460cf8f72b3a43daf5 hashcomp.sh //
+SHA256SUM: 0edff77c0635dafd25b9225c8106d70d0c637bdda044169678ea747d0514cc8e hashcomp.sh
 
 # Use Premises
 
